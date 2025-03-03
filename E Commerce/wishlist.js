@@ -23,8 +23,6 @@ wishlistContainer.addEventListener("click",(event)=>{
         localStorage.setItem("wishlist", JSON.stringify(wishlist));
         wishlistContainer.innerText = "";
         creatHorizontalProductCard(wishlist , wishlistContainer,"wishlist");
-
-
     }
     
 })
