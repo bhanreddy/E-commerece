@@ -6,8 +6,6 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const filterContainer = document.querySelector(".filter-container");
 
-
-
 productContainer.addEventListener("click",(event)=>{
 
     const cartButton = event.target.closest("button");
