@@ -27,7 +27,5 @@ wishlistContainer.addEventListener("click",(event)=>{
     
 })
 
-
-
 creatHorizontalProductCard(wishlist , wishlistContainer,"wishlist");
 
